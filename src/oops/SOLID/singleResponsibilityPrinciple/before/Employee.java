@@ -16,7 +16,6 @@ public abstract class Employee {
 
     public Employee(String fullName, int monthlyIncome){
         setMonthlyIncome(monthlyIncome);
-
         String[] names = fullName.split(" ");
         this.firstName = names[0];
         this.lastName = names[1];
